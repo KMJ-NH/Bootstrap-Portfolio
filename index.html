@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio</title>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <!-- This is the reset CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+    <!-- This is the bootstrap CSS 3.3.7 version -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <!--custom stylesheet-->
+    <link rel="stylesheet" href="assets/css/style.css" media="screen">
+
+
+</head>
+
+<body>
+
+    <!-- NavBar -->
+    <!-- Static navbar -->
+
+    <nav class="navbar navbar-default">
+
+        <div class="row">
+
+            <div class="container-fluid">
+
+                <div class="navbar-header">
+
+                    <!-- THIS does the hamburger -->
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                        aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#" id="logo">Karen Johnson</a>
+                </div>
+
+                <!-- <div id="navbar" class="navbar-collapse collapse>-->
+                <div class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav navbar-right navbar-right-custom">
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                    </ul>
+
+                    <!--/.nav-collapse -->
+                </div>
+
+                <!--.row-->
+            </div>
+
+            <!--.container-fluid-->
+        </div>
+
+        <!--/.container -->
+    </nav>
+
+
+    <!-- Wrapper for container -->
+    <div class="wrap">
+
+        <!--Container inside the main body (with one row)-->
+
+        <!-- container for content -->
+        <div class="container">
+
+            <!-- row in content -->
+            <div class="row">
+
+                <!-- row specs -->
+                <div class="col-md-8">
+
+                    <!--about me container-->
+                    <div class="aboutcontainer">
+
+                        <!--about header-->
+                        <h1 class="aboutheader">About Me
+                        </h1>
+                        <hr>
+
+                        <img class="img-responsive pull-left" src="assets/images/butterfly.jpg" alt="butterfly image" id="imageinfo">
+
+                        <p>I'm enrolled in the University of New Hampshire's coding Boot Camp with a plan to become a web devloper.
+                            I have a background working with data in various ways, and working as a SAS programmer to pull
+                            raw data files, manipulate the data, and then populate SQL tables with my manipulated data to
+                            be used in report generation.
+                        </p>
+
+                        <p>In my earlier professional life I used my degree in psychology to work with chronically mentally
+                            ill adults in the community, and I developed and carried out behavior modification techniques
+                            with physically agressive brain-injured adults within a rehabilitation center environment. While
+                            working in the rehab center, I also worked as a research assistant to a behavioral neurologist
+                            by pulling data from medical charts for a medication study he was doing.
+                        </p>
+
+                        <br>
+
+                        <!--.aboutcontainer-->
+                    </div>
+
+                    <!--columns-->
+                </div>
+
+                <!-- Connect with me columns -->
+                <div class="col-md-4">
+
+                    <div class="connectcontent">
+
+                        <h1 class="connectheader">Connect With Me
+                        </h1>
+
+                        <hr>
+
+                        <div id="images">
+
+                            <img src="assets/images/github-128.png" alt="" class="connect-with-me-photo" id="connectimage">
+                            <img src="assets/images/linkedin-128.png" alt="" class="connect-with-me-photo" id="connectimage">
+                            <img src="assets/images/stackoverflow-128.png" alt="" class="connect-with-me-photo" id="connectimage">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <br>
+    <br>
+
+    <!--Container for the footer-->
+    <div class="container">
+
+        <div class="row">
+
+            <!--Footer will be full width of the 12 columns-->
+            <div class="col-md-12">
+
+                <Footer>© Copyright 2017 Karen Johnson
+                </Footer>
+
+                <!--/.column-->
+            </div>
+
+            <!--/.row-->
+        </div>
+
+        <!--/.container-->
+    </div>
+</body>
+
+</html>
